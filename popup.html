@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Note Taker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+      }
+      #count {
+        font-size: 2em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Note Taker</h1>
+
+    <form>
+      <textarea
+        id="note"
+        rows="10"
+        cols="30"
+        placeholder="Take a note..."
+      ></textarea>
+      <br />
+      <button id="save">Save Note</button>
+    </form>
+    <p id="status"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>
